@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Site Admin — Aman Faizal Portfolio</title>
+<style>
+  :root{--bg:#0c0e12;--surface:#13161d;--surface2:#1a1e28;--border:#252a38;--accent:#00e5a0;--text:#e0e4f0;--text2:#9aa3c0;--muted:#6b7394;--danger:#ff5f5f;}
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;font-size:14px;}
+  #login{max-width:420px;margin:80px auto;padding:32px;background:var(--surface);border:1px solid var(--border);border-radius:12px;}
+  #login h1{font-size:18px;margin:0 0 6px;}
+  #login p{color:var(--muted);font-size:13px;margin:0 0 20px;}
+  label{display:block;font-size:12px;color:var(--text2);margin:14px 0 6px;}
+  input[type=text],input[type=password],select,textarea{width:100%;padding:9px 11px;background:var(--surface2);border:1px solid var(--border);border-radius:6px;color:var(--text);font-family:inherit;font-size:13px;}
+  textarea{font-family:'Consolas',monospace;resize:vertical;}
+  button{cursor:pointer;border:none;border-radius:6px;padding:9px 16px;font-size:13px;font-weight:600;font-family:inherit;}
+  .btn-primary{background:var(--accent);color:#0c0e12;}
+  .btn-secondary{background:var(--surface2);color:var(--text);border:1px solid var(--border);}
+  .btn-danger{background:transparent;color:var(--danger);border:1px solid var(--danger);}
+  .btn-sm{padding:5px 10px;font-size:12px;}
+  #app{display:none;}
+  header{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;background:var(--surface);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:10;}
+  header h1{font-size:15px;margin:0;}
+  #status{font-size:12px;color:var(--muted);}
+  #status.dirty{color:var(--accent);}
+  #status.saving{color:#ffd166;}
+  #status.error{color:var(--danger);}
+  .tabs{display:flex;gap:4px;padding:0 24px;background:var(--surface);border-bottom:1px solid var(--border);overflow-x:auto;}
+  .tab{padding:12px 16px;color:var(--muted);cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap;font-size:13px;}
+  .tab.active{color:var(--accent);border-bottom-color:var(--accent);}
+  main{max-width:900px;margin:0 auto;padding:24px;}
+  .panel{display:none;}
+  .panel.active{display:block;}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:18px;margin-bottom:14px;}
+  .card-row{display:flex;align-items:center;justify-content:space-between;gap:10px;}
+  .row{display:flex;gap:10px;align-items:center;}
+  .grow{flex:1;}
+  .muted{color:var(--muted);font-size:12px;}
+  .section-item{display:flex;align-items:center;gap:10px;padding:10px 12px;background:var(--surface2);border-radius:8px;margin-bottom:8px;}
+  .section-item.hidden-section{opacity:.45;}
+  .section-item .grow{font-size:13px;}
+  .pill{font-size:10px;padding:2px 8px;border-radius:20px;background:var(--surface);border:1px solid var(--border);color:var(--muted);}
+  .editor-fields{display:none;margin-top:12px;padding-top:12px;border-top:1px solid var(--border);}
+  .editor-fields.open{display:block;}
+  .img-thumb{display:inline-flex;flex-direction:column;gap:6px;background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:8px;margin:0 8px 8px 0;width:140px;vertical-align:top;}
+  .img-thumb img{width:100%;height:90px;object-fit:cover;border-radius:4px;background:#000;}
+  .link-row{display:flex;gap:8px;align-items:center;margin-bottom:6px;}
+  .link-row input{flex:1;}
+  .color-swatch{width:32px;height:32px;border-radius:6px;border:1px solid var(--border);padding:0;background:none;}
+  h2.sec{font-size:14px;margin:26px 0 10px;color:var(--text2);text-transform:uppercase;letter-spacing:1px;}
+  .toast{position:fixed;bottom:20px;right:20px;background:var(--surface2);border:1px solid var(--accent);color:var(--text);padding:12px 18px;border-radius:8px;font-size:13px;z-index:100;display:none;}
+  .icon-btn{background:transparent;border:none;color:var(--text2);font-size:16px;padding:2px 6px;}
+  .icon-btn:hover{color:var(--text);}
+</style>
+</head>
+<body>
+
+<div id="login">
+  <h1>🔒 Site Admin</h1>
+  <p>Just for you. Edits commit straight to your GitHub Pages repo.</p>
+  <label>Local password</label>
+  <input type="password" id="pw-input" placeholder="Set/enter your local password">
+  <label>GitHub Personal Access Token <span class="muted">(repo scope)</span></label>
+  <input type="password" id="pat-input" placeholder="ghp_...">
+  <label>Repo <span class="muted">(owner/repo)</span></label>
+  <input type="text" id="repo-input" placeholder="aman5z/aman5z.github.io" value="aman5z/aman5z.github.io">
+  <label>Branch</label>
+  <input type="text" id="branch-input" placeholder="main" value="main">
+  <button class="btn-primary" style="width:100%;margin-top:20px;" onclick="doLogin()">Unlock</button>
+  <p class="muted" id="login-error" style="color:#ff5f5f;"></p>
+</div>
+
+<div id="app">
+  <header>
+    <h1>Aman Faizal — Site Admin</h1>
+    <div class="row">
+      <span id="status">Loaded</span>
+      <select id="page-switcher" class="btn-sm" style="width:auto;"></select>
+      <button class="btn-primary btn-sm" onclick="saveCurrent()">💾 Save & Publish</button>
+      <button class="btn-secondary btn-sm" onclick="doLogout()">Lock</button>
+    </div>
+  </header>
+
+  <div class="tabs">
+    <div class="tab active" data-tab="sections">Sections</div>
+    <div class="tab" data-tab="global">Global / Theme</div>
+    <div class="tab" data-tab="nav">Top Links</div>
+    <div class="tab" data-tab="pages">Pages</div>
+  </div>
+
+  <main>
+    <div class="panel active" id="panel-sections">
+      <div class="row" style="margin-bottom:12px;">
+        <span class="grow muted">Drag order with ▲▼. Click a section to edit its content, images and links.</span>
+        <button class="btn-secondary btn-sm" onclick="addSection()">+ Add Section</button>
+      </div>
+      <div id="sections-list"></div>
+    </div>
+
+    <div class="panel" id="panel-global">
+      <h2 class="sec">Default Theme</h2>
+      <div class="card">
+        <label>Default theme on load</label>
+        <select id="g-theme-default"><option value="dark">Dark</option><option value="light">Light</option></select>
+        <label>Accent color</label>
+        <div class="row"><input type="color" class="color-swatch" id="g-accent"><input type="text" id="g-accent-text" class="grow"></div>
+        <label>Secondary accent</label>
+        <div class="row"><input type="color" class="color-swatch" id="g-accent2"><input type="text" id="g-accent2-text" class="grow"></div>
+        <label>Body font (Google Font name)</label>
+        <input type="text" id="g-font-body" placeholder="DM Sans">
+        <label>Mono font (Google Font name)</label>
+        <input type="text" id="g-font-mono" placeholder="Space Mono">
+      </div>
+      <h2 class="sec">Site Meta</h2>
+      <div class="card">
+        <label>Page title</label><input type="text" id="g-title">
+        <label>Description</label><textarea id="g-desc" rows="2"></textarea>
+        <label>Favicon / OG image URL</label><input type="text" id="g-favicon">
+        <label>Canonical URL</label><input type="text" id="g-canonical">
+        <label>Footer text</label><input type="text" id="g-footer">
+      </div>
+      <button class="btn-primary" onclick="applyGlobalFields()">Apply to draft</button>
+    </div>
+
+    <div class="panel" id="panel-nav">
+      <h2 class="sec">Top-Right Link Shortcuts</h2>
+      <div id="nav-list"></div>
+      <button class="btn-secondary btn-sm" onclick="addNavLink()">+ Add Link</button>
+    </div>
+
+    <div class="panel" id="panel-pages">
+      <h2 class="sec">Pages</h2>
+      <p class="muted">Each page becomes a real URL, e.g. <code>aman5z.in/page1</code>.</p>
+      <div id="pages-list"></div>
+      <div class="card" style="margin-top:14px;">
+        <label>New page slug (lowercase, no spaces)</label>
+        <input type="text" id="new-page-slug" placeholder="page1">
+        <label>New page title</label>
+        <input type="text" id="new-page-title" placeholder="Page 1">
+        <button class="btn-primary btn-sm" style="margin-top:12px;" onclick="createPage()">+ Create Page</button>
+      </div>
+    </div>
+  </main>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="admin.js"></script>
+</body>
+</html>
