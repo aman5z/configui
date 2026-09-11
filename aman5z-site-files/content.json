@@ -1,0 +1,1797 @@
+{
+  "meta": {
+    "title": "Aman Faizal — Portfolio",
+    "description": "Aman Faizal — Certified Ethical Hacker, IT Infrastructure Administrator & IoT Automation Specialist. Portfolio of enterprise IT projects, cybersecurity tools, and smart home automation.",
+    "keywords": "Aman Faizal, IT Administrator, CEH, IoT, Cybersecurity, Portfolio, ESP8266, Proxmox, Network Engineer",
+    "author": "Aman Faizal",
+    "canonical": "https://aman5z.in",
+    "ogImage": "https://aman5z.github.io/favcon.png",
+    "favicon": "https://aman5z.github.io/favcon.png",
+    "themeColorDark": "#0c0e12",
+    "themeColorLight": "#f8f9fa"
+  },
+  "theme": {
+    "defaultMode": "dark",
+    "dark": {
+      "bg": "#0c0e12",
+      "surface": "#13161d",
+      "surface2": "#1a1e28",
+      "border": "#252a38",
+      "accent": "#00e5a0",
+      "accent2": "#00aaff",
+      "accent3": "#ff6b35",
+      "accent-purple": "#c77dff",
+      "accent-yellow": "#ffd166",
+      "text": "#e0e4f0",
+      "text2": "#9aa3c0",
+      "muted": "#6b7394",
+      "heading": "#ffffff",
+      "font-body": "'DM Sans', sans-serif",
+      "font-mono": "'Space Mono', monospace",
+      "hero-bg": "linear-gradient(135deg, #0d1117 0%, #1a1e28 60%, #0c0e12 100%)",
+      "hero-text": "#e0e4f0",
+      "hero-muted": "#6b7394",
+      "hero-border": "#252a38",
+      "stat-bg": "linear-gradient(135deg, #1a1e28 0%, #252a38 100%)",
+      "stat-text": "#e0e4f0",
+      "stat-label": "#9aa3c0",
+      "skill-tag-bg": "rgba(0,229,160,0.08)",
+      "skill-tag-color": "#00e5a0",
+      "skill-tag-border": "rgba(0,229,160,0.2)",
+      "timeline-color": "#00e5a0",
+      "cert-border": "rgba(0,229,160,0.4)",
+      "cert-bg": "#1a1e28",
+      "cert-heading": "#e0e4f0",
+      "cert-sub": "#6b7394",
+      "section-tag-iot-bg": "rgba(0,229,160,0.1)",
+      "section-tag-iot-c": "#00e5a0",
+      "section-tag-iot-border": "rgba(0,229,160,0.3)",
+      "section-tag-cyber-bg": "rgba(255,107,53,0.1)",
+      "section-tag-cyber-c": "#ff6b35",
+      "section-tag-cyber-border": "rgba(255,107,53,0.3)",
+      "section-tag-infra-bg": "rgba(0,170,255,0.1)",
+      "section-tag-infra-c": "#00aaff",
+      "section-tag-infra-border": "rgba(0,170,255,0.3)",
+      "section-tag-elec-bg": "rgba(199,125,255,0.1)",
+      "section-tag-elec-c": "#c77dff",
+      "section-tag-elec-border": "rgba(199,125,255,0.3)",
+      "section-tag-web-bg": "rgba(255,209,102,0.1)",
+      "section-tag-web-c": "#ffd166",
+      "section-tag-web-border": "rgba(255,209,102,0.3)",
+      "badge-diy-bg": "rgba(0,229,160,0.08)",
+      "badge-diy-c": "#00e5a0",
+      "badge-diy-border": "rgba(0,229,160,0.2)",
+      "badge-freelance-bg": "rgba(0,170,255,0.08)",
+      "badge-freelance-c": "#00aaff",
+      "badge-freelance-border": "rgba(0,170,255,0.2)",
+      "badge-research-bg": "rgba(255,107,53,0.08)",
+      "badge-research-c": "#ff6b35",
+      "badge-research-border": "rgba(255,107,53,0.2)",
+      "card-link-bg": "rgba(0,229,160,0.06)",
+      "card-link-c": "#00e5a0",
+      "card-link-border": "rgba(0,229,160,0.35)",
+      "card-link-hover-bg": "rgba(0,229,160,0.14)",
+      "part-dot": "#00e5a0",
+      "conn-key-c": "#00e5a0",
+      "scenario-border": "#00e5a0",
+      "feature-arrow": "#00e5a0",
+      "toggle-bg": "#1a1e28",
+      "toggle-border": "#252a38",
+      "toggle-c": "#e0e4f0",
+      "philosophy-bg": "linear-gradient(135deg, #1a1e28 0%, #0c0e12 100%)",
+      "philosophy-text": "#e0e4f0",
+      "philosophy-border": "rgba(0,229,160,0.2)",
+      "why-card-border": "rgba(0,229,160,0.15)",
+      "btn-a-bg": "#00e5a0",
+      "btn-a-c": "#0c0e12",
+      "btn-b-bg": "transparent",
+      "btn-b-c": "#00e5a0",
+      "btn-b-border": "#00e5a0",
+      "hero-badge-bg": "rgba(0,229,160,0.1)",
+      "hero-badge-border": "rgba(0,229,160,0.3)",
+      "hero-badge-c": "#00e5a0",
+      "expertise-card-border": "rgba(0,229,160,0.2)",
+      "expertise-h4-c": "#00e5a0",
+      "expertise-check": "#00e5a0",
+      "cat-pill-iot-border": "#00e5a0",
+      "cat-pill-iot-c": "#00e5a0",
+      "cat-pill-cyber-border": "#ff6b35",
+      "cat-pill-cyber-c": "#ff6b35",
+      "cat-pill-infra-border": "#00aaff",
+      "cat-pill-infra-c": "#00aaff",
+      "cat-pill-elec-border": "#c77dff",
+      "cat-pill-elec-c": "#c77dff",
+      "cat-pill-web-border": "#ffd166",
+      "cat-pill-web-c": "#ffd166",
+      "section-title-c": "#ffffff",
+      "section-desc-c": "#6b7394",
+      "section-index-c": "#6b7394"
+    },
+    "light": {
+      "bg": "#f8f9fa",
+      "surface": "#ffffff",
+      "surface2": "#f0f4ff",
+      "border": "#e0e0e0",
+      "accent": "#003ee6",
+      "accent2": "#121158",
+      "accent3": "#e04f25",
+      "accent-purple": "#7c3aed",
+      "accent-yellow": "#b45309",
+      "text": "#333333",
+      "text2": "#555555",
+      "muted": "#888888",
+      "heading": "#121158",
+      "font-body": "'Poppins', 'Segoe UI', sans-serif",
+      "font-mono": "'Courier New', monospace",
+      "hero-bg": "linear-gradient(135deg, #003ee6 0%, #121158 100%)",
+      "hero-text": "#ffffff",
+      "hero-muted": "rgba(255,255,255,0.75)",
+      "hero-border": "rgba(255,255,255,0.2)",
+      "stat-bg": "linear-gradient(135deg, #003ee6 0%, #121158 100%)",
+      "stat-text": "#ffffff",
+      "stat-label": "rgba(255,255,255,0.8)",
+      "skill-tag-bg": "#e0e7ff",
+      "skill-tag-color": "#003ee6",
+      "skill-tag-border": "#c7d2fe",
+      "timeline-color": "#003ee6",
+      "cert-border": "#003ee6",
+      "cert-bg": "#f0f4ff",
+      "cert-heading": "#121158",
+      "cert-sub": "#666",
+      "section-tag-iot-bg": "#e0f7f1",
+      "section-tag-iot-c": "#065f46",
+      "section-tag-iot-border": "#6ee7b7",
+      "section-tag-cyber-bg": "#fff1ec",
+      "section-tag-cyber-c": "#9a3412",
+      "section-tag-cyber-border": "#fed7aa",
+      "section-tag-infra-bg": "#eff6ff",
+      "section-tag-infra-c": "#1e40af",
+      "section-tag-infra-border": "#bfdbfe",
+      "section-tag-elec-bg": "#f5f3ff",
+      "section-tag-elec-c": "#5b21b6",
+      "section-tag-elec-border": "#ddd6fe",
+      "section-tag-web-bg": "#fffbeb",
+      "section-tag-web-c": "#92400e",
+      "section-tag-web-border": "#fde68a",
+      "badge-diy-bg": "#e0f7f1",
+      "badge-diy-c": "#065f46",
+      "badge-diy-border": "#6ee7b7",
+      "badge-freelance-bg": "#eff6ff",
+      "badge-freelance-c": "#1e40af",
+      "badge-freelance-border": "#bfdbfe",
+      "badge-research-bg": "#fff1ec",
+      "badge-research-c": "#9a3412",
+      "badge-research-border": "#fed7aa",
+      "card-link-bg": "#eff6ff",
+      "card-link-c": "#1e40af",
+      "card-link-border": "#93c5fd",
+      "card-link-hover-bg": "#dbeafe",
+      "part-dot": "#003ee6",
+      "conn-key-c": "#003ee6",
+      "scenario-border": "#003ee6",
+      "feature-arrow": "#003ee6",
+      "toggle-bg": "#ffffff",
+      "toggle-border": "#d1d5db",
+      "toggle-c": "#121158",
+      "philosophy-bg": "linear-gradient(135deg, #003ee6 0%, #121158 100%)",
+      "philosophy-text": "#ffffff",
+      "philosophy-border": "rgba(255,255,255,0.3)",
+      "why-card-border": "#003ee6",
+      "btn-a-bg": "#003ee6",
+      "btn-a-c": "#ffffff",
+      "btn-b-bg": "transparent",
+      "btn-b-c": "#003ee6",
+      "btn-b-border": "#003ee6",
+      "hero-badge-bg": "rgba(255,255,255,0.15)",
+      "hero-badge-border": "rgba(255,255,255,0.3)",
+      "hero-badge-c": "#ffffff",
+      "expertise-card-border": "#003ee6",
+      "expertise-h4-c": "#003ee6",
+      "expertise-check": "#003ee6",
+      "cat-pill-iot-border": "#059669",
+      "cat-pill-iot-c": "#065f46",
+      "cat-pill-cyber-border": "#dc2626",
+      "cat-pill-cyber-c": "#991b1b",
+      "cat-pill-infra-border": "#2563eb",
+      "cat-pill-infra-c": "#1e40af",
+      "cat-pill-elec-border": "#7c3aed",
+      "cat-pill-elec-c": "#5b21b6",
+      "cat-pill-web-border": "#b45309",
+      "cat-pill-web-c": "#92400e",
+      "section-title-c": "#121158",
+      "section-desc-c": "#555",
+      "section-index-c": "#888"
+    }
+  },
+  "socialIcons": [
+    {
+      "id": "tools-btn",
+      "href": "https://aman5z.in/tools",
+      "label": "Visit IT Tools",
+      "icon": {
+        "kind": "image",
+        "src": "https://www.google.com/s2/favicons?sz=64&domain_url=https://aman5z.in/tools"
+      },
+      "hidden": false
+    },
+    {
+      "id": "linkedin-btn",
+      "href": "https://www.linkedin.com/in/aman5z",
+      "label": "Visit LinkedIn profile",
+      "icon": {
+        "kind": "svg",
+        "svg": "<svg fill=\"var(--toggle-c)\" height=\"20\" viewbox=\"0 0 24 24\" width=\"20\">\n<path d=\"M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z\"></path>\n</svg>"
+      },
+      "hidden": false
+    },
+    {
+      "id": "github-btn",
+      "href": "https://github.com/aman5z",
+      "label": "Visit GitHub profile",
+      "icon": {
+        "kind": "svg",
+        "svg": "<svg fill=\"var(--toggle-c)\" height=\"20\" viewbox=\"0 0 16 16\" width=\"20\">\n<path d=\"M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z\"></path>\n</svg>"
+      },
+      "hidden": false
+    },
+    {
+      "id": "youtube-btn",
+      "href": "https://www.youtube.com/@aman.5z",
+      "label": "Visit YouTube channel",
+      "icon": {
+        "kind": "svg",
+        "svg": "<svg fill=\"var(--toggle-c)\" height=\"20\" viewbox=\"0 0 24 24\" width=\"20\">\n<path d=\"M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z\"></path>\n</svg>"
+      },
+      "hidden": false
+    }
+  ],
+  "hero": {
+    "photo": "https://aman5z.github.io/pic.png",
+    "photoAlt": "Aman Faizal",
+    "label": "// IT Professional — Portfolio",
+    "name": "Aman Faizal",
+    "subtitleHtml": "<span lang=\"ar\">أمان فيصل</span> | <span lang=\"hi\">अमन फैज़ल</span>",
+    "taglineHtml": "Certified Ethical Hacker · IT Infrastructure Administrator · IoT Automation Specialist<br/>\n        Self-taught technology professional managing enterprise IT for 7,000+ users while building innovative automation solutions.",
+    "badges": [
+      "🔐 CEH Certified",
+      "💼 Freelance IT",
+      "🏢 Enterprise IT",
+      "🏠 IoT Expert",
+      "🌐 Network Engineer"
+    ],
+    "buttons": [
+      {
+        "label": "⬇ Download CV",
+        "href": "Aman_Faizal_CV.pdf",
+        "style": "btn-a",
+        "download": true
+      },
+      {
+        "label": "View My Work ↓",
+        "href": "#webapps",
+        "style": "btn-b",
+        "download": false
+      }
+    ]
+  },
+  "stats": [
+    {
+      "number": "4+",
+      "label": "Years Experience",
+      "tooltip": null
+    },
+    {
+      "number": "7,000+",
+      "label": "Users Supported",
+      "tooltip": "6,500+ Students\\n500+ Staff Members"
+    },
+    {
+      "number": "15+",
+      "label": "Certifications",
+      "tooltip": "• CEH (EC-Council)\\n• Advanced Penetration Tester\\n• Google IT Support Professional\\n• RHCE & AWS Solution Architect\\n• Apple ATLAS (318 Courses)\\n• Network Administration Diploma\\n• CompTIA Security+\\n• DevOps Fundamentals\\n• And more..."
+    },
+    {
+      "number": "95%",
+      "label": "Issue Resolution Rate",
+      "tooltip": null
+    }
+  ],
+  "about": {
+    "heading": "Who I Am",
+    "paragraphsHtml": [
+      "I'm a technology enthusiast who transformed curiosity into expertise — <strong>without a traditional tech degree</strong>. My journey began with a simple question: <em>\"How does this work?\"</em> — leading me from disassembling gadgets as a hobbyist to managing mission-critical infrastructure for thousands of users.",
+      "What sets me apart is my <strong>hybrid approach</strong>: I combine enterprise-level IT administration with hands-on maker skills, cybersecurity expertise, and a passion for automation. Whether I'm managing HP ProLiant servers and Sophos firewalls at work, or building ESP8266-powered smart home systems at home, I bring the same level of precision and innovation."
+    ]
+  },
+  "expertise": {
+    "heading": "What I Do",
+    "cards": [
+      {
+        "title": "🏢 Enterprise IT Infrastructure",
+        "items": [
+          "Managing 500+ staff, 6,500+ students",
+          "170+ PCs, 190+ smartboards/projectors",
+          "HP ProLiant DL360 Gen10, Active Directory",
+          "QNAP NAS, CCTV, biometrics, POS systems",
+          "Microsoft 365 & AWS administration",
+          "Campus-wide network & vendor coordination"
+        ]
+      },
+      {
+        "title": "🏠 IoT & Home Automation",
+        "items": [
+          "ESP8266/ESP32 firmware development",
+          "Multi-room smart home systems (4+ rooms)",
+          "Alexa, Google Assistant, Sinric Pro",
+          "Tasmota & ESP RainMaker platforms",
+          "IR/RF remote control systems",
+          "~15% energy efficiency improvements"
+        ]
+      },
+      {
+        "title": "☁️ Cloud & Virtualization",
+        "items": [
+          "Proxmox VE multi-OS hosting",
+          "Private cloud storage (Nextcloud)",
+          "Tailscale VPN & Cloudflare Tunnel",
+          "Media servers (Plex, Jellyfin)",
+          "VoIP systems (Asterisk/FreePBX)",
+          "24/7 monitoring (Zabbix, Nagios)"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "heading": "Technical Arsenal",
+    "groups": [
+      {
+        "title": "Operating Systems",
+        "tags": [
+          "Windows Server",
+          "Linux (Ubuntu · RHEL · Kali)",
+          "macOS",
+          "Android",
+          "Android TV OS"
+        ]
+      },
+      {
+        "title": "Cloud & Virtualization",
+        "tags": [
+          "AWS (EC2 · S3 · VPC)",
+          "Microsoft 365",
+          "Proxmox VE",
+          "VMware",
+          "Hyper-V",
+          "Docker",
+          "LXC"
+        ]
+      },
+      {
+        "title": "Networking & Security",
+        "tags": [
+          "TCP/IP · DHCP · DNS",
+          "VPN (WireGuard · Tailscale)",
+          "Penetration Testing",
+          "Wi-Fi Optimization",
+          "Zabbix · Nagios · Ntopng",
+          "Sophos XGS"
+        ]
+      },
+      {
+        "title": "IoT & Automation",
+        "tags": [
+          "ESP8266 · ESP32",
+          "Arduino · NodeMCU",
+          "Tasmota",
+          "ESP RainMaker",
+          "Sinric Pro",
+          "Home Assistant",
+          "Relay Modules · SSR"
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "heading": "Professional Journey",
+    "items": [
+      {
+        "title": "IT Administrator",
+        "meta": "Gulf Asian English School, Sharjah, UAE · Nov 2024 – Present",
+        "descriptionHtml": "Managing enterprise IT infrastructure for 7,000+ users. Overseeing HP ProLiant DL360 Gen10 servers, Sophos XGS 4500 firewall, QNAP NAS, Microsoft 365, AWS cloud services, and campus-wide network infrastructure. Supporting 170+ PCs, 190+ smartboards/projectors, CCTV, biometrics, and POS systems."
+      },
+      {
+        "title": "Freelance IT Support & Network Admin",
+        "meta": "Self-Employed · May 2021 – Present",
+        "descriptionHtml": "PC assembly, network design, IoT automation projects. Deployed network for 160+ users, developed smart home systems, provided remote/onsite troubleshooting with 95% resolution rate."
+      },
+      {
+        "title": "Technical Support — Apple Certified",
+        "meta": "Ample Technologies, India · Feb 2022 – Oct 2023",
+        "descriptionHtml": "iOS/macOS hardware and software diagnostics with 90% first-time resolution. Completed 318 Apple ATLAS courses. Supported 10+ cases daily with 90% customer satisfaction."
+      }
+    ]
+  },
+  "certifications": {
+    "heading": "Certifications & Training",
+    "items": [
+      {
+        "name": "Certified Ethical Hacker (CEH)",
+        "issuer": "EC-Council · 2025"
+      },
+      {
+        "name": "Advanced Penetration Tester",
+        "issuer": "RedTeam Hacker Academy · 2024"
+      },
+      {
+        "name": "Google IT Support Professional",
+        "issuer": "Google · 2024"
+      },
+      {
+        "name": "RHCE & AWS Solution Architect",
+        "issuer": "Scope India · 2023"
+      },
+      {
+        "name": "Apple Technical Learning (318 Courses)",
+        "issuer": "Apple ATLAS · 2022"
+      },
+      {
+        "name": "Network Administration Diploma",
+        "issuer": "Jetking (MCSA · RHCSA · CCNA · A+ · N+) · 2022"
+      },
+      {
+        "name": "CompTIA Security+",
+        "issuer": "Udemy · 2023"
+      },
+      {
+        "name": "DevOps Fundamentals",
+        "issuer": "IBM Coursera · 2023"
+      },
+      {
+        "name": "Intel Network Academy",
+        "issuer": "Intel · 2022"
+      }
+    ]
+  },
+  "whyWorkWithMe": {
+    "heading": "Why Work With Me",
+    "cards": [
+      {
+        "title": "🔧 Hands-On Problem Solver",
+        "textHtml": "I don't just manage systems — I build, repair, and optimize them from scratch. From soldering circuits to configuring enterprise firewalls."
+      },
+      {
+        "title": "📚 Continuous Learner",
+        "textHtml": "15+ certifications, 318 Apple courses, constantly exploring new technologies. Self-taught journey proves passion rivals any formal degree."
+      },
+      {
+        "title": "💡 Cost-Effective Innovator",
+        "textHtml": "Proven track record of delivering enterprise solutions on tight budgets. Built complete cloud infrastructure with zero monthly costs."
+      },
+      {
+        "title": "🔐 Security-First Mindset",
+        "textHtml": "CEH certified with practical penetration testing experience. Network hardening, vulnerability assessment, and threat mitigation."
+      },
+      {
+        "title": "🎯 Full-Stack IT Skills",
+        "textHtml": "From microelectronics to cloud infrastructure. Hardware assembly, network design, security auditing, automation — complete end-to-end capability."
+      },
+      {
+        "title": "📝 Documentation & Teaching",
+        "textHtml": "Active creator of technical content and project documentation. Clear communicator who explains complex concepts simply."
+      }
+    ]
+  },
+  "projectsHeader": {
+    "label": "// Detailed Projects",
+    "title": "Hardware & Software Engineering",
+    "descriptionHtml": "DIY IoT systems, server infrastructure, cybersecurity tools, and web apps — built from first principles using low-cost, open-source hardware and software."
+  },
+  "categories": [
+    {
+      "id": "webapps",
+      "index": "01",
+      "navLabel": "Web Apps & Software",
+      "pillClass": "webapps",
+      "tagText": "Web Apps & Software",
+      "tagClass": "tag-web",
+      "title": "Browser-Based IT Tools & Dashboards",
+      "descriptionHtml": "Full-featured web apps built with Vanilla JS and Google Apps Script — enterprise-style admin consoles, network monitoring dashboards, and IT utility suites.",
+      "projects": [
+        {
+          "title": "ZKTeco Attendance System & ERP Console",
+          "subtitleHtml": "Full-stack biometric attendance solution — Python/Flask backend, real-time logger, and a unified web dashboard for HR, IT Helpdesk, and Admin operations",
+          "links": [
+            {
+              "label": "Live Demo",
+              "href": "https://aman5z.github.io/zk_aio_ERP/d"
+            }
+          ],
+          "linkNote": "(Click \"Demo\" on login)",
+          "badge": {
+            "text": "Live Project",
+            "class": "badge-freelance"
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "html": "An end-to-end attendance management platform for ZKTeco biometric devices. The Python backend streams live punch events from multiple terminals into a local SQLite database, while the ERP Console — a high-performance single-page app built with vanilla web technologies — serves as the unified front end for HR, IT Helpdesk, and admin operations. Connects to a Google Apps Script cloud backend for ticketing and Drive integration. Runs on Linux, Windows, macOS, and Android (Termux)."
+            },
+            {
+              "type": "subitems",
+              "items": [
+                {
+                  "title": "Real-Time Logger &amp; Sync",
+                  "textHtml": "Per-device threads with self-healing reconnect stream live punches to SQLite (WAL) and an external API with configurable batching. Bulk sync CLI supports date-range filtering; startup scripts auto-sync the last 30–60 days on boot."
+                },
+                {
+                  "title": "HR &amp; Attendance Management",
+                  "textHtml": "Live present/absent dashboard with per-department stats, historical reports, employee calendar, monthly summaries, shift/grace-period config, holiday management, and offline-capable remote punching via IndexedDB."
+                },
+                {
+                  "title": "ZKTeco Fleet Control",
+                  "textHtml": "Monitor online/offline status for all biometric terminals. Remote actions from the browser: ping, sync clock, reboot. Download enrolled users, fingerprint templates, and raw logs per device."
+                },
+                {
+                  "title": "Notifications",
+                  "textHtml": "Telegram bot alerts for device status, per-punch events, and scheduled daily absent reports. Scheduled HTML + plain-text email reports via Gmail SMTP. All settings configurable from the Admin UI without restarting."
+                },
+                {
+                  "title": "IT Helpdesk &amp; Collaboration",
+                  "textHtml": "Ticketing system with priority and assignment workflows, token queue for service counters, internal peer-to-peer messaging, notice board, sticky notes, WebRTC VoIP calling, and Google Drive integration via GAS."
+                },
+                {
+                  "title": "Admin &amp; Infrastructure",
+                  "textHtml": "Raw SQLite query console, DB backup/restore, CSV/MDB bulk import, full audit log, RBAC user management, session manager, auto-sync scheduler, integrated Linode terminal via ttyd, and 13 UI themes including glassmorphism."
+                }
+              ]
+            },
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "kind": "img",
+                  "src": "https://cdn.jsdelivr.net/gh/aman5z/aman5z@main/screenshots/ERP%20(1).png",
+                  "alt": "ERP Console login dashboard screenshot"
+                },
+                {
+                  "kind": "img",
+                  "src": "https://cdn.jsdelivr.net/gh/aman5z/aman5z@main/screenshots/ERP%20(2).png",
+                  "alt": "ERP attendance analytics dashboard screenshot"
+                },
+                {
+                  "kind": "img",
+                  "src": "https://cdn.jsdelivr.net/gh/aman5z/aman5z@main/screenshots/ERP%20(3).png",
+                  "alt": "ERP employee attendance report view"
+                },
+                {
+                  "kind": "img",
+                  "src": "https://cdn.jsdelivr.net/gh/aman5z/aman5z@main/screenshots/ERP%20(4).png",
+                  "alt": "ERP helpdesk ticket board"
+                },
+                {
+                  "kind": "img",
+                  "src": "https://cdn.jsdelivr.net/gh/aman5z/aman5z@main/screenshots/ERP%20(5).png",
+                  "alt": "ERP admin configuration panel"
+                },
+                {
+                  "kind": "img",
+                  "src": "https://cdn.jsdelivr.net/gh/aman5z/aman5z@main/screenshots/ERP%20(6).png",
+                  "alt": "ERP live attendance monitoring screen"
+                }
+              ]
+            },
+            {
+              "type": "techstack",
+              "tags": [
+                "Python 3 / Flask",
+                "pyzk",
+                "SQLite (WAL)",
+                "Vanilla JS",
+                "HTML5 / CSS3",
+                "PWA / IndexedDB",
+                "Google Apps Script",
+                "Telegram Bot API",
+                "Gmail SMTP",
+                "SheetJS",
+                "PDF-lib",
+                "Socket.IO",
+                "Docker",
+                "Termux"
+              ]
+            }
+          ],
+          "hidden": false
+        },
+        {
+          "title": "IT Tools Dashboard",
+          "subtitleHtml": "Swiss-army knife for IT admins — networking, security, and utility tools in one browser tab",
+          "links": [
+            {
+              "label": "Live Demo",
+              "href": "https://aman5z.in/tools"
+            }
+          ],
+          "linkNote": null,
+          "badge": {
+            "text": "Open Source",
+            "class": "badge-diy"
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "html": "A browser-based multi-tool dashboard combining commonly used IT utilities into a single interface. All processing is client-side for fast performance and better privacy. Features search filtering, favorites, keyboard shortcuts, and exportable logs."
+            },
+            {
+              "type": "subitems",
+              "items": [
+                {
+                  "title": "Utility Tools",
+                  "textHtml": "QR/barcode generator, Base64 encoder/decoder, hex/binary/decimal converter, password generator with strength analysis, text diff tool."
+                },
+                {
+                  "title": "Networking Tools",
+                  "textHtml": "IP info, DNS lookup, URL-to-IP resolution, hosting provider detection, URL shortener, subnet calculator, MAC vendor lookup."
+                },
+                {
+                  "title": "Monitoring &amp; Files",
+                  "textHtml": "Ping monitor with latency chart, real-time console output, Google Drive upload with QR sharing, client-side PDF editing."
+                }
+              ]
+            },
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "kind": "img",
+                  "src": "https://cdn.jsdelivr.net/gh/aman5z/aman5z@main/screenshots/tools%20(1).png",
+                  "alt": "IT Tools Dashboard main interface"
+                },
+                {
+                  "kind": "img",
+                  "src": "https://cdn.jsdelivr.net/gh/aman5z/aman5z@main/screenshots/tools%20(2).png",
+                  "alt": "IT Tools networking utilities panel"
+                },
+                {
+                  "kind": "img",
+                  "src": "https://cdn.jsdelivr.net/gh/aman5z/aman5z@main/screenshots/tools%20(3).png",
+                  "alt": "IT Tools security and converter utilities"
+                }
+              ]
+            },
+            {
+              "type": "techstack",
+              "tags": [
+                "Vanilla JS",
+                "PDF-Lib",
+                "JsBarcode",
+                "QRCode.js",
+                "Google Apps Script",
+                "Battery API",
+                "Clipboard API"
+              ]
+            }
+          ],
+          "hidden": false
+        },
+        {
+          "title": "ZKTeco Attendance Telegram Bot",
+          "subtitleHtml": "Telegram-only attendance management for ZKTeco devices + Middle East Attendance Software MDB — 40+ commands, no dashboard needed",
+          "links": [
+            {
+              "label": "GitHub",
+              "href": "https://github.com/aman5z/zk_tg_bot"
+            }
+          ],
+          "linkNote": null,
+          "badge": {
+            "text": "Open Source",
+            "class": "badge-diy"
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "html": "A fully Telegram-native attendance system that connects directly to ZKTeco biometric devices (TCP/IP via pyzk) and reads the Middle East Attendance Software .mdb database. No web server, no Flask, no SQLite — every feature is a Telegram command. Supports 40+ commands across attendance queries, device management, reporting, and admin operations."
+            },
+            {
+              "type": "subitems",
+              "items": [
+                {
+                  "title": "Attendance &amp; Reporting",
+                  "textHtml": "Today's summary, absent/present/late/early lists, who-is-in detection, weekly/monthly trends, top absentees, department breakdowns, and custom date-range history. XLSX/PNG/PDF reports via scheduled or on-demand delivery."
+                },
+                {
+                  "title": "Per-Employee Queries",
+                  "textHtml": "Search by name or badge, today's punch timeline, month-to-date report, and a full emoji calendar grid showing daily presence/absence at a glance."
+                },
+                {
+                  "title": "Device Fleet Control",
+                  "textHtml": "Ping all devices, sync clocks, reboot remotely, push user records across the fleet, identify orphaned device users not in the MDB, and manage device config via inline Telegram keyboards."
+                },
+                {
+                  "title": "Notifications &amp; Email",
+                  "textHtml": "Per-punch live alerts, device online/offline change alerts, MDB stale detection, and daily scheduled absent reports. Optional Gmail SMTP delivery with HTML/plain/both formats — all configurable from Telegram without touching config files."
+                },
+                {
+                  "title": "MDB Backup System",
+                  "textHtml": "Inline backup panel with Telegram download, email attachment, local directory copy, and recurring scheduled delivery. All settings managed via the bot UI."
+                },
+                {
+                  "title": "Admin &amp; Security",
+                  "textHtml": "Password-gated whitelist-only shell session, read-only SQL console, audit log, RBAC with per-user presence tracking, and a full inline admin panel. Lockout on repeated auth failures."
+                }
+              ]
+            },
+            {
+              "type": "techstack",
+              "tags": [
+                "Python 3",
+                "python-telegram-bot v20+",
+                "pyzk",
+                "mdbtools",
+                "pandas",
+                "openpyxl",
+                "matplotlib",
+                "Gmail SMTP",
+                "asyncio",
+                "systemd"
+              ]
+            }
+          ],
+          "hidden": false
+        },
+        {
+          "title": "Telegram Queue Management System",
+          "subtitleHtml": "Full token/queue system — Telegram admin bot + FastAPI web server + real-time TV display with TTS and live tracking",
+          "links": [
+            {
+              "label": "GitHub",
+              "href": "https://github.com/aman5z/tg_queue_mgmt"
+            }
+          ],
+          "linkNote": null,
+          "badge": {
+            "text": "Open Source",
+            "class": "badge-diy"
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "html": "A complete queue and token management platform built for service counters — combines a Telegram admin bot with a FastAPI web server and SQLite backend. Real-time updates are pushed via Server-Sent Events (SSE) to a TV-ready display page with browser TTS read-aloud and audio beep on every token call."
+            },
+            {
+              "type": "subitems",
+              "items": [
+                {
+                  "title": "TV Display Page",
+                  "textHtml": "Full-screen NOW SERVING board with per-counter status, live waiting list, clock, and automatic TTS announcement — \"Token 42, please proceed to Counter 2\" — triggered instantly via SSE when any admin calls the next token."
+                },
+                {
+                  "title": "Customer Token Flow",
+                  "textHtml": "Customers scan a QR code or visit the /take page, enter their name and department, and receive a token number plus a /track link. The tracker auto-refreshes showing live queue position without any app install."
+                },
+                {
+                  "title": "Telegram Admin Bot",
+                  "textHtml": "Inline keyboard controls for Next / Previous / Recall / Current / Waiting per counter. Full counter management: add, rename, remove, open, close. QR code generation, queue reset with confirmation, and staff user management."
+                },
+                {
+                  "title": "Staff Web Dashboard",
+                  "textHtml": "Browser login for counter staff — manage their assigned counters without Telegram access. Session-cookie auth with optional HTTPS-only mode. Counter assignments configurable per staff user from the admin bot."
+                }
+              ]
+            },
+            {
+              "type": "techstack",
+              "tags": [
+                "Python 3",
+                "python-telegram-bot v20+",
+                "FastAPI",
+                "SQLite / aiosqlite",
+                "SSE",
+                "Web Speech API",
+                "asyncio",
+                "Docker-ready"
+              ]
+            }
+          ],
+          "hidden": false
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "id": "cyber",
+      "index": "02",
+      "navLabel": "Cybersecurity",
+      "pillClass": "cyber",
+      "tagText": "Cybersecurity",
+      "tagClass": "tag-cyber",
+      "title": "Ethical Hacking & Penetration Testing Tools",
+      "descriptionHtml": "Custom hardware tools for Wi-Fi security research and HID exploitation — built for educational understanding of network vulnerabilities.",
+      "projects": [
+        {
+          "title": "Wi-Fi Deauther + Wi-Fi Duck",
+          "subtitleHtml": "Combined hardware toolkit for Wi-Fi DoS testing and HID injection",
+          "links": [],
+          "linkNote": null,
+          "badge": {
+            "text": "Research",
+            "class": "badge-research"
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "html": "A dual-purpose device combining a Wi-Fi deauthentication tool and a USB HID injection platform (\"Wi-Fi Duck\"), built using a Pro Micro (ATmega32U4) and D1 Mini (ESP8266). OLED display provides real-time feedback; RGB LED indicates device state. Powered by a TP4056 Li-ion charging circuit for portability."
+            },
+            {
+              "type": "subitems",
+              "items": [
+                {
+                  "title": "Wi-Fi Deauther",
+                  "textHtml": "Exploits the 802.11 deauthentication frame vulnerability to disconnect devices from a target Wi-Fi network. Used for DoS demonstration and network security auditing. For educational/authorized use only."
+                },
+                {
+                  "title": "Wi-Fi Duck (HID Injection)",
+                  "textHtml": "When plugged via USB, emulates a keyboard/mouse (HID device). Remote scripts are delivered over the ESP8266 hotspot, allowing keystroke injection undetected by most antivirus software."
+                }
+              ]
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "subheading",
+              "text": "Components"
+            },
+            {
+              "type": "partslist",
+              "items": [
+                {
+                  "name": "Pro Micro (ATmega32U4)",
+                  "desc": "USB HID emulation (keyboard/mouse)"
+                },
+                {
+                  "name": "D1 Mini (ESP8266)",
+                  "desc": "Wi-Fi deauth attacks + hotspot"
+                },
+                {
+                  "name": "0.96\" OLED Display",
+                  "desc": "Status & network selection UI"
+                },
+                {
+                  "name": "TP4056 Charger",
+                  "desc": "Li-ion battery management"
+                },
+                {
+                  "name": "External Antenna",
+                  "desc": "Extended Wi-Fi range"
+                },
+                {
+                  "name": "WS2811 RGB LED",
+                  "desc": "Visual state indicator"
+                }
+              ]
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "subheading",
+              "text": "Wiring"
+            },
+            {
+              "type": "conntable",
+              "rows": [
+                {
+                  "key": "SCL (3)",
+                  "value": "D1 (ESP8266)"
+                },
+                {
+                  "key": "SDA (2)",
+                  "value": "D2 (ESP8266)"
+                },
+                {
+                  "key": "GND",
+                  "value": "GND (shared)"
+                },
+                {
+                  "key": "VIN",
+                  "value": "5V"
+                },
+                {
+                  "key": "Pin 7",
+                  "value": "LED Data (RGB)"
+                },
+                {
+                  "key": "D5/D6/D7",
+                  "value": "OK / Up / Down buttons"
+                }
+              ]
+            },
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "kind": "img",
+                  "src": "https://github.com/user-attachments/assets/61e83650-d1a9-4f64-956a-73821e8ab92c",
+                  "alt": "Wi-Fi Deauther and Wi-Fi Duck hardware build photo"
+                },
+                {
+                  "kind": "iframe",
+                  "src": "https://www.youtube.com/embed/yxYy-raUYgw",
+                  "title": "Wi-Fi Deauther demo video"
+                },
+                {
+                  "kind": "iframe",
+                  "src": "https://www.youtube.com/embed/49yFmYKk45k",
+                  "title": "Wi-Fi Duck HID demo video"
+                }
+              ]
+            },
+            {
+              "type": "techstack",
+              "tags": [
+                "ESP8266",
+                "ATmega32U4",
+                "Arduino",
+                "USB HID",
+                "802.11 Mgmt Frames",
+                "TP4056"
+              ]
+            }
+          ],
+          "hidden": false
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "id": "iot",
+      "index": "03",
+      "navLabel": "IoT & Smart Home",
+      "pillClass": "iot",
+      "tagText": "IoT & Smart Home",
+      "tagClass": "tag-iot",
+      "title": "Home Automation & Connected Devices",
+      "descriptionHtml": "Full-home automation using ESP8266/ESP32, relay boards, Tasmota firmware, and voice assistant integration. Projects span smart rooms, vehicle access, and custom smart hardware.",
+      "projects": [
+        {
+          "title": "Smart Home — Multi-Room Automation",
+          "subtitleHtml": "4 zones: Bedroom 1 &amp; 2, Living Room, Kitchen",
+          "links": [],
+          "linkNote": null,
+          "badge": {
+            "text": "DIY",
+            "class": "badge-diy"
+          },
+          "blocks": [
+            {
+              "type": "subitems",
+              "items": [
+                {
+                  "title": "Bedroom 1",
+                  "textHtml": "8-channel relay + NodeMCU controlling tube lights, ceiling fan, Philips Wiz bulb, DIY RGB lamp, study lamp, and 3 sockets. Sockets auto-shutoff at 100% charge. AC via Homemate Wi-Fi IR remote with scheduled temperature automation (24°C → 26°C → off by 5 AM)."
+                },
+                {
+                  "title": "Bedroom 2",
+                  "textHtml": "Philips Wiz smart bulb as night lamp (10% brightness). AC via 40A SSR + NodeMCU flashed with Tasmota inside the AC stabilizer. Auto-shutoff at 5 AM, stabilizer powers down 5 min later. DIY SSR using LED + LDR for optoisolation."
+                },
+                {
+                  "title": "Living Room",
+                  "textHtml": "Echo Dot 3rd Gen for voice control. 4-channel relay + ESP8266 manages TV, bias lighting, and 5.1 soundbar via Sinric Pro. Custom Alexa routines: \"Movie Time\" dims lights &amp; enables soundbar; \"Movie Break\" pauses media and restores lights to 50%."
+                },
+                {
+                  "title": "Kitchen",
+                  "textHtml": "Water pump timer using 40A SSR + Arduino Nano. 3-button interface: 2-min, 7-min, and reset. Prevents tank overflow and saves energy. Housed in a standard 2-module electrical box."
+                }
+              ]
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "subheading",
+              "text": "Voice Automation Scenarios"
+            },
+            {
+              "type": "scenariolist",
+              "items": [
+                {
+                  "cmd": "\"Movie Time\"",
+                  "descHtml": "TV on → soundbar connects via HDMI ARC → LED strip on → main light off"
+                },
+                {
+                  "cmd": "\"Movie Break\"",
+                  "descHtml": "Media paused via IR → Wiz bulb at 50% brightness"
+                },
+                {
+                  "cmd": "Scheduled 3–5 AM",
+                  "descHtml": "AC steps down 24°C → 26°C → off; fan off at 6 AM"
+                }
+              ]
+            },
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "kind": "img",
+                  "src": "https://github.com/user-attachments/assets/8561c240-72d6-4f1b-ba6d-18d6fc92f8fe",
+                  "alt": "IoT smart home setup with relay modules"
+                },
+                {
+                  "kind": "img",
+                  "src": "https://github.com/user-attachments/assets/d0be9eba-0ef4-4f32-98a3-0c69c008b71e",
+                  "alt": "IoT bedroom automation wiring"
+                },
+                {
+                  "kind": "img",
+                  "src": "https://github.com/user-attachments/assets/c6bcff7f-ae99-41e4-95b8-08805f890211",
+                  "alt": "IoT living room control setup"
+                },
+                {
+                  "kind": "img",
+                  "src": "https://github.com/user-attachments/assets/4dfeeca6-89dc-4a79-9e3e-35f5955ab0f1",
+                  "alt": "IoT smart switch enclosure"
+                },
+                {
+                  "kind": "img",
+                  "src": "https://github.com/user-attachments/assets/5412da56-6eb3-4dc0-8d80-d5d6e2724ce1",
+                  "alt": "IoT kitchen pump timer module"
+                },
+                {
+                  "kind": "iframe",
+                  "src": "https://www.youtube.com/embed/M3Lm0tNvhHg",
+                  "title": "Smart home automation bedroom demo"
+                },
+                {
+                  "kind": "iframe",
+                  "src": "https://www.youtube.com/embed/JVbXGTMZsqY",
+                  "title": "Smart home living room automation demo"
+                },
+                {
+                  "kind": "iframe",
+                  "src": "https://www.youtube.com/embed/KTtauZO1fFU",
+                  "title": "Smart home kitchen automation demo"
+                },
+                {
+                  "kind": "iframe",
+                  "src": "https://www.youtube.com/embed/j9ytDHUP6wA",
+                  "title": "Smart home voice control demo"
+                }
+              ]
+            },
+            {
+              "type": "techstack",
+              "tags": [
+                "Sinric Pro",
+                "Alexa",
+                "Google Assistant",
+                "Philips Wiz",
+                "40A SSR",
+                "8-ch Relay",
+                "Arduino Nano",
+                "Homemate IR",
+                "ESP8266"
+              ]
+            }
+          ],
+          "hidden": false
+        },
+        {
+          "title": "Smart Extension Box V3",
+          "subtitleHtml": "6-socket individually-controlled smart power strip",
+          "links": [],
+          "linkNote": null,
+          "badge": {
+            "text": "DIY",
+            "class": "badge-diy"
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "html": "Upgraded a standard GoldMedal 6-socket extension box with a 6-channel relay (4+2), ESP32, and AC-to-DC 5V 2A adapter. Individual socket control via IR remote, ESP RainMaker app, Alexa, or Google Assistant. Added a reset switch and external USB-A port for OTA reprogramming."
+            },
+            {
+              "type": "featurelist",
+              "items": [
+                "IR remote assigns unique commands per socket; '0' kills all sockets",
+                "Timer and automation support via ESP RainMaker",
+                "Voice control via Alexa and Google Assistant",
+                "External reset + reprogramming port for field updates"
+              ]
+            },
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "kind": "img",
+                  "src": "https://github.com/user-attachments/assets/cac47e85-987c-4a39-9a94-53f3c51ccb8f",
+                  "alt": "Smart extension box internal wiring"
+                },
+                {
+                  "kind": "iframe",
+                  "src": "https://www.youtube.com/embed/AbDBEdheORM",
+                  "title": "Smart Extension Box V3 hardware walkthrough"
+                },
+                {
+                  "kind": "iframe",
+                  "src": "https://www.youtube.com/embed/-SjZgLHQetY",
+                  "title": "Smart Extension Box V3 control demo"
+                }
+              ]
+            },
+            {
+              "type": "techstack",
+              "tags": [
+                "ESP32",
+                "ESP RainMaker",
+                "IR (TSOP)",
+                "Relay Module",
+                "Alexa",
+                "Google Assistant"
+              ]
+            }
+          ],
+          "hidden": false
+        },
+        {
+          "title": "Bike Keyless Entry via IoT",
+          "subtitleHtml": "Wi-Fi &amp; RF-based proximity keyless system for a motorcycle",
+          "links": [],
+          "linkNote": null,
+          "badge": {
+            "text": "DIY",
+            "class": "badge-diy"
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "html": "A 4-channel relay + NodeMCU ESP8266 connected to the bike's ignition, kill switch, and self-start — controllable via Alexa, Google Assistant, or a WearOS app. Powered by 12V-to-USB adapter from the bike battery. Salvaged RF module from an RC car converted into a keychain remote for proximity auto-lock/unlock (locks beyond ~10m)."
+            },
+            {
+              "type": "featurelist",
+              "items": [
+                "Ignition, kill switch, and self-start via app/voice",
+                "Proximity auto-lock/unlock via salvaged RF module",
+                "Helmet-triggered start via Bluetooth receiver",
+                "WearOS Alexa app integration"
+              ]
+            },
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "kind": "img",
+                  "src": "https://github.com/user-attachments/assets/358f6cf6-d342-41a7-b6e9-23ce1a5e5a14",
+                  "alt": "Bike IoT relay harness"
+                },
+                {
+                  "kind": "img",
+                  "src": "https://github.com/user-attachments/assets/f7efff28-c176-4323-afb8-589dcb54dfca",
+                  "alt": "Bike keyless entry circuit board"
+                },
+                {
+                  "kind": "img",
+                  "src": "https://github.com/user-attachments/assets/e9c187cd-d016-4156-8f96-107bf1c1bccc",
+                  "alt": "Bike keyless remote module"
+                },
+                {
+                  "kind": "img",
+                  "src": "https://github.com/user-attachments/assets/ae0b3608-02f8-418a-86fc-22fe585ec64e",
+                  "alt": "Bike IoT control relay unit"
+                },
+                {
+                  "kind": "iframe",
+                  "src": "https://www.youtube.com/embed/uWKIfy4VlEw",
+                  "title": "Bike keyless entry IoT demo"
+                },
+                {
+                  "kind": "iframe",
+                  "src": "https://www.youtube.com/embed/q4sZrree7NM",
+                  "title": "Bike IoT ignition control demo"
+                }
+              ]
+            },
+            {
+              "type": "techstack",
+              "tags": [
+                "NodeMCU ESP8266",
+                "4-ch Relay",
+                "RF Module",
+                "Bluetooth",
+                "WearOS",
+                "Alexa"
+              ]
+            }
+          ],
+          "hidden": false
+        },
+        {
+          "title": "IoT RC Car with Custom Web Controller",
+          "subtitleHtml": "Wi-Fi controlled car built from salvaged RC parts, controlled via a local HTTP page",
+          "links": [],
+          "linkNote": null,
+          "badge": {
+            "text": "DIY",
+            "class": "badge-diy"
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "html": "Built a Wi-Fi RC car using a NodeMCU ESP8266 and motor controller, salvaging the gearbox, motors, and wheels from an old RC chassis. Control handled through a locally hosted HTTP page served by the ESP8266 — no app install needed."
+            },
+            {
+              "type": "partslist",
+              "items": [
+                {
+                  "name": "NodeMCU ESP8266",
+                  "desc": "Wi-Fi host + HTTP control server"
+                },
+                {
+                  "name": "Motor Controller Board",
+                  "desc": "Drives direction and speed"
+                },
+                {
+                  "name": "RC Car Gearbox + Wheels",
+                  "desc": "Salvaged drivetrain"
+                },
+                {
+                  "name": "3.7V + 9V Batteries",
+                  "desc": "Logic and motor power supply"
+                }
+              ]
+            },
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "kind": "img",
+                  "src": "https://github.com/user-attachments/assets/baee22df-9cd6-421b-a719-ea115f030670",
+                  "alt": "IoT RC car chassis wiring"
+                },
+                {
+                  "kind": "img",
+                  "src": "https://github.com/user-attachments/assets/645bb752-4d5c-4964-a1c4-3da03b0684cd",
+                  "alt": "IoT RC car controller module"
+                },
+                {
+                  "kind": "iframe",
+                  "src": "https://www.youtube.com/embed/JoTiOld-npY",
+                  "title": "IoT RC car web controller demo"
+                }
+              ]
+            },
+            {
+              "type": "techstack",
+              "tags": [
+                "NodeMCU ESP8266",
+                "Motor Controller",
+                "HTTP Server"
+              ]
+            }
+          ],
+          "hidden": false
+        },
+        {
+          "title": "DIY Smart Home Display (Echo Show Clone)",
+          "subtitleHtml": "Repurposed damaged POCO M3 as a portable smart home hub",
+          "links": [],
+          "linkNote": null,
+          "badge": {
+            "text": "DIY",
+            "class": "badge-diy"
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "html": "A POCO M3 with a broken charging port, dead SIM, and broken GPS was repaired (display replaced), debloated (85–90% MIUI removed), and mounted in a custom holder with an integrated 5W speaker and 10,000 mAh power bank. Runs Alexa as a full voice assistant for smart home control and media playback."
+            },
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "kind": "iframe",
+                  "src": "https://www.youtube.com/embed/CLh-JNErU60",
+                  "title": "DIY smart home display demo"
+                }
+              ]
+            },
+            {
+              "type": "techstack",
+              "tags": [
+                "POCO M3",
+                "Alexa",
+                "MIUI Debloat",
+                "WearOS",
+                "10,000 mAh Power Bank"
+              ]
+            }
+          ],
+          "hidden": false
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "id": "infra",
+      "index": "04",
+      "navLabel": "Infrastructure",
+      "pillClass": "infra",
+      "tagText": "Infrastructure & Networking",
+      "tagClass": "tag-infra",
+      "title": "Server Virtualization, Cloud & Network Engineering",
+      "descriptionHtml": "Homelab and production-grade network deployments using open-source tools — from multi-OS Proxmox environments to enterprise-style network design for a 35-room villa compound.",
+      "projects": [
+        {
+          "title": "AIO Home Server — Multi-OS Virtualization Platform",
+          "subtitleHtml": "Repurposed HP i3 laptop running Proxmox VE + Raspberry Pi 5 node",
+          "links": [],
+          "linkNote": null,
+          "badge": {
+            "text": "Self-Hosted",
+            "class": "badge-diy"
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "html": "Transformed an idle HP i3 laptop by upgrading SSD/RAM and modifying the power button for lid-closed booting. Installed Proxmox VE for full virtualization, running multiple OS instances with automated backups and snapshots. A Raspberry Pi 5 runs UmbrelOS/CasaOS with a 500 GB SSD for private cloud storage."
+            },
+            {
+              "type": "subitems",
+              "items": [
+                {
+                  "title": "Virtualization &amp; VMs",
+                  "textHtml": "Proxmox VE hosting Ubuntu Server, Kali Linux, Windows 11, Windows Server, Android TV OS, and multiple LXC containers. Accessible via VNC from any browser."
+                },
+                {
+                  "title": "Remote Access",
+                  "textHtml": "Cloudflare Tunnel for HTTPS public access via custom subdomains. Tailscale VPN (WireGuard) for secure mesh networking across all devices."
+                },
+                {
+                  "title": "Private Cloud Storage",
+                  "textHtml": "Nextcloud + OpenMediaVault on Raspberry Pi 5 with 500 GB SSD. Accessible across Windows (SMB), Linux, and Android."
+                },
+                {
+                  "title": "Media &amp; Web Services",
+                  "textHtml": "Plex + Jellyfin for media streaming. Internal web server for personal projects. Firefox proxy browser inside CasaOS."
+                },
+                {
+                  "title": "IoT Integration",
+                  "textHtml": "Tasmota-managed IoT devices on LAN, remotely accessible via Tailscale + Cloudflare Tunnel."
+                },
+                {
+                  "title": "VoIP System",
+                  "textHtml": "Asterisk + FreePBX configured for a local IVR and telephony setup."
+                }
+              ]
+            },
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "kind": "img",
+                  "src": "https://github.com/user-attachments/assets/f74f5707-9550-4607-aff1-a274e126a770",
+                  "alt": "Proxmox dashboard"
+                },
+                {
+                  "kind": "iframe",
+                  "src": "https://www.youtube.com/embed/LFEARhLRYA8",
+                  "title": "AIO home server Proxmox demo"
+                }
+              ]
+            },
+            {
+              "type": "techstack",
+              "tags": [
+                "Proxmox VE",
+                "Raspberry Pi 5",
+                "Tailscale / WireGuard",
+                "Cloudflare Tunnel",
+                "Nextcloud",
+                "OpenMediaVault",
+                "Plex / Jellyfin",
+                "Asterisk / FreePBX",
+                "Tasmota",
+                "UmbrelOS"
+              ]
+            }
+          ],
+          "hidden": false
+        },
+        {
+          "title": "Villa Network — Multi-Compound Wi-Fi Deployment & NOC Dashboard",
+          "subtitleHtml": "35-room, 160+ concurrent user network across two compounds · Freelance · Dec 2024",
+          "links": [],
+          "linkNote": null,
+          "badge": {
+            "text": "Freelance",
+            "class": "badge-freelance"
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "html": "Designed and deployed a cost-effective enterprise-grade Wi-Fi network across two villa compounds with 35 rooms, supporting 110+ Wi-Fi users and 160+ peak concurrent users. All 16 routers repurposed from existing hardware, configured as APs with static IPs and non-overlapping channels. Achieved 200–230 Mb/s stable throughput."
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "subheading",
+              "text": "Network Hardware"
+            },
+            {
+              "type": "networktable",
+              "headers": [
+                "Component",
+                "Role"
+              ],
+              "rows": [
+                [
+                  "TP-Link Archer AX53 (AX3000)",
+                  "Primary router — traffic management &amp; inter-compound link via CAT6"
+                ],
+                [
+                  "TP-Link LS1008G Switch",
+                  "Distribution switch linked to main Etisalat ISP router"
+                ],
+                [
+                  "D-Link DGS108G + Linksys LGS105V2",
+                  "Access-layer switches for both compounds"
+                ],
+                [
+                  "16 × Mixed-brand routers",
+                  "Access Points — DHCP disabled, static IPs, staggered channels"
+                ],
+                [
+                  "HP Laptop (Proxmox)",
+                  "24/7 monitoring via Zabbix, Nagios, Ntopng — zero additional cost"
+                ]
+              ]
+            },
+            {
+              "type": "divider"
+            },
+            {
+              "type": "subheading",
+              "text": "NOC Monitoring Dashboard"
+            },
+            {
+              "type": "paragraph",
+              "html": "Custom homelab-style Network Operations Center web dashboard using Vanilla JS, hosted via Blogger layout override. Provides unified LAN/WAN health visibility with embedded monitoring tools, real-time clock, and a dark-mode admin UI."
+            },
+            {
+              "type": "subitems",
+              "items": [
+                {
+                  "title": "WAN Monitoring",
+                  "textHtml": "Embedded Fast.com speed test, public uptime tracking, external network status monitoring."
+                },
+                {
+                  "title": "Planned Enhancements",
+                  "textHtml": "Prometheus + Grafana, Docker backend, SNMP, authentication layer, PWA deployment, AWS/Azure hosting."
+                },
+                {
+                  "title": "Pi-hole DNS &amp; Filtering",
+                  "textHtml": "Self-hosted Pi-hole for network-wide ad blocking, DNS filtering, and traffic monitoring — acts as a lightweight firewall layer across all 160+ users."
+                }
+              ]
+            },
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "kind": "img",
+                  "src": "https://github.com/user-attachments/assets/7d128bf0-9e4d-48bf-ac27-666126aae4a8",
+                  "alt": "Villa network topology overview screenshot"
+                },
+                {
+                  "kind": "img",
+                  "src": "https://github.com/user-attachments/assets/34c542d9-32d1-4c73-951d-8b9cee7db5ff",
+                  "alt": "Villa Wi-Fi access point placement chart"
+                },
+                {
+                  "kind": "img",
+                  "src": "https://github.com/user-attachments/assets/70bc7940-0a8b-4969-86e4-a306e6a5c039",
+                  "alt": "Villa NOC monitoring dashboard view"
+                },
+                {
+                  "kind": "img",
+                  "src": "https://github.com/user-attachments/assets/da4dba08-e3d8-4d66-9054-2252266a81bb",
+                  "alt": "Villa compound network speed test result"
+                },
+                {
+                  "kind": "img",
+                  "src": "https://github.com/user-attachments/assets/322cdd6c-8658-4ee7-8e38-4e10d752b2b5",
+                  "alt": "Villa network hardware rack photo"
+                },
+                {
+                  "kind": "img",
+                  "src": "https://github.com/user-attachments/assets/428d6f5e-89b9-4624-bacb-d1ffd9263634",
+                  "alt": "Villa network monitoring analytics graph"
+                }
+              ]
+            },
+            {
+              "type": "techstack",
+              "tags": [
+                "TP-Link AX3000",
+                "CAT6",
+                "Proxmox",
+                "Ubuntu Server",
+                "Zabbix",
+                "Nagios",
+                "Ntopng",
+                "Tailscale",
+                "Vanilla JS",
+                "Fast.com"
+              ]
+            }
+          ],
+          "hidden": false
+        },
+        {
+          "title": "Homelab Server Monitor — Proxmox, LXC & Docker Dashboard",
+          "subtitleHtml": "Custom framebuffer dashboard for Raspberry Pi 5 with MHS 3.5\" touchscreen",
+          "links": [],
+          "linkNote": null,
+          "badge": {
+            "text": "Self-Hosted",
+            "class": "badge-diy"
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "html": "A custom-built display dashboard for a Raspberry Pi 5 with an MHS 3.5\" touchscreen, rendering directly to the framebuffer (<code>/dev/fb0</code>). Provides real-time monitoring of Proxmox VE backups, remote Linux/Windows devices, and network health, fully configurable from a browser-based web UI."
+            },
+            {
+              "type": "subitems",
+              "items": [
+                {
+                  "title": "Multi-Screen Monitoring",
+                  "textHtml": "Clock/weather, system stats, network info, remote device CPU/RAM/disk mini-bars, ping latency sparklines, aggregated alerts, Uptime Kuma monitor list, firewall (pfSense/OPNsense) status, Pi-hole stats, habit tracker, countdowns, and a local photo slideshow."
+                },
+                {
+                  "title": "Proxmox &amp; Remote Agents",
+                  "textHtml": "Pulls Proxmox VE backup task history via the REST API and surfaces failures as alerts; lightweight Linux and Windows agent scripts report device stats to the dashboard over a simple JSON API."
+                },
+                {
+                  "title": "Web Configuration UI",
+                  "textHtml": "A local web server for configuring theme, fonts, alignment, screen order/visibility, alert thresholds, and integrations entirely from a browser — no code editing required, with login-protected access."
+                },
+                {
+                  "title": "Extras",
+                  "textHtml": "ARP watch and port-scan reminders for lightweight LAN security monitoring, a server-side notification inbox for companion apps, and save/load config snapshot profiles."
+                }
+              ]
+            },
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "kind": "img",
+                  "src": "https://github.com/user-attachments/assets/cfa0b779-8216-4cbe-a9d5-d8757a473777",
+                  "alt": "Web configuration UI"
+                },
+                {
+                  "kind": "img",
+                  "src": "https://github.com/user-attachments/assets/c44b9535-0b8d-4e79-b953-4f1a2d221db9",
+                  "alt": "Dashboard screen on device"
+                },
+                {
+                  "kind": "img",
+                  "src": "https://github.com/user-attachments/assets/a72de3f8-1cbd-4b20-96ad-ae36d0c43690",
+                  "alt": "Dashboard screen on device"
+                },
+                {
+                  "kind": "img",
+                  "src": "https://github.com/user-attachments/assets/22cf25ba-1932-4569-bad6-340270a93c9d",
+                  "alt": "Dashboard screen on device"
+                },
+                {
+                  "kind": "img",
+                  "src": "https://github.com/user-attachments/assets/a68ced64-94f7-4f84-950a-4d76cfa7738a",
+                  "alt": "Dashboard screen on device"
+                }
+              ]
+            },
+            {
+              "type": "techstack",
+              "tags": [
+                "Python",
+                "Raspberry Pi 5",
+                "Proxmox VE API",
+                "Framebuffer",
+                "Uptime Kuma",
+                "Pi-hole",
+                "systemd"
+              ]
+            },
+            {
+              "type": "cardlinks",
+              "links": [
+                {
+                  "label": "GitHub Repo",
+                  "href": "https://github.com/aman5z/Homelab-Server-Monitor-Proxmox-LXC-Docker-Dashboard"
+                }
+              ]
+            }
+          ],
+          "hidden": false
+        }
+      ],
+      "hidden": false
+    },
+    {
+      "id": "elec",
+      "index": "05",
+      "navLabel": "Electronics",
+      "pillClass": "elec",
+      "tagText": "Electronics & Device Repurposing",
+      "tagClass": "tag-elec",
+      "title": "DIY Electronics, Mods & Old Hardware Revival",
+      "descriptionHtml": "Creative reuse of old smartphones, scrap components, and consumer electronics — from Li-Fi audio transmission to hardware phone modifications.",
+      "projects": [
+        {
+          "title": "Electronics & Smartphone Projects",
+          "subtitleHtml": "Li-Fi audio, IP camera, smart display, glyph clone, and hardware mods — all from salvaged or repurposed components",
+          "links": [],
+          "linkNote": null,
+          "badge": {
+            "text": "DIY",
+            "class": "badge-diy"
+          },
+          "blocks": [
+            {
+              "type": "paragraph",
+              "html": "A collection of electronics experiments and smartphone repurposing projects — proof-of-concept builds, zero-cost hardware upgrades, and creative mods using off-the-shelf or salvaged components."
+            },
+            {
+              "type": "subitems",
+              "items": [
+                {
+                  "title": "💡 Li-Fi Audio Transmission",
+                  "textHtml": "Transmitted audio wirelessly using light modulation. Aux output drives a laser diode or LED; a solar panel on the receiver side converts the light signal back to audio via aux input."
+                },
+                {
+                  "title": "📷 Wi-Fi IP Camera",
+                  "textHtml": "Converted a retired Android phone into a Wi-Fi IP camera accessible over the local network. A zero-cost alternative to dedicated IP cameras."
+                },
+                {
+                  "title": "🖥️ Smart Home Display (Echo Show Clone)",
+                  "textHtml": "A POCO M3 with broken charging port, dead SIM, and broken GPS — repaired, debloated (85–90% MIUI removed), and mounted with an integrated 5W speaker and 10,000 mAh power bank."
+                },
+                {
+                  "title": "✨ Nothing Phone Glyph Clone",
+                  "textHtml": "Added a rear LED strip to a POCO M3 to replicate the aesthetic of the Nothing Phone (1) glyph interface — purely hardware, no software modifications required."
+                },
+                {
+                  "title": "🔊 Speaker + Battery Upgrade",
+                  "textHtml": "Integrated an external 5W speaker and 10,000 mAh power bank into a custom phone holder with extended power button for easy one-handed access."
+                }
+              ]
+            },
+            {
+              "type": "gallery",
+              "items": [
+                {
+                  "kind": "iframe",
+                  "src": "https://www.youtube.com/embed/EP3FhXvnBzw",
+                  "title": "Li-Fi audio transmission demo"
+                },
+                {
+                  "kind": "iframe",
+                  "src": "https://www.youtube.com/embed/cZS87dkC_hE",
+                  "title": "Wi-Fi IP camera repurpose demo"
+                },
+                {
+                  "kind": "iframe",
+                  "src": "https://www.youtube.com/embed/CLh-JNErU60",
+                  "title": "DIY smart home display demo"
+                },
+                {
+                  "kind": "iframe",
+                  "src": "https://www.youtube.com/embed/cU543wnm6vo",
+                  "title": "Nothing glyph clone hardware demo"
+                },
+                {
+                  "kind": "iframe",
+                  "src": "https://www.youtube.com/embed/F4dVhQ4d_AI",
+                  "title": "Speaker and battery upgrade demo"
+                }
+              ]
+            },
+            {
+              "type": "techstack",
+              "tags": [
+                "Li-Fi",
+                "Laser Diode / LED",
+                "Solar Panel",
+                "Android",
+                "IP Camera App",
+                "POCO M3",
+                "Alexa",
+                "MIUI Debloat",
+                "WearOS",
+                "LED Strip",
+                "5W Speaker",
+                "10,000 mAh Power Bank"
+              ]
+            }
+          ],
+          "hidden": false
+        }
+      ],
+      "hidden": false
+    }
+  ],
+  "philosophy": {
+    "heading": "What Drives Me",
+    "quoteHtml": "\"Technology should empower, not complicate.\"",
+    "paragraphsHtml": [
+      "I believe the best solutions combine security, efficiency, and user experience. Whether I'm hardening a school network against threats, automating a home to save energy, or repurposing old hardware into something useful, my goal is always the same: <strong>make technology work smarter, not harder</strong>.",
+      "My journey from curious hobbyist to certified ethical hacker and IT administrator proves that passion and persistence can rival any formal degree. I'm constantly learning, building, and sharing — because technology is too exciting to keep to yourself."
+    ]
+  },
+  "contact": {
+    "heading": "Let's Connect",
+    "textHtml": "Whether you need enterprise IT support, cybersecurity consulting, custom IoT solutions, or just want to talk tech — I'm always up for a conversation.",
+    "buttons": [
+      {
+        "label": "⬇ Download CV",
+        "href": "Aman_Faizal_CV.pdf",
+        "style": "btn-b",
+        "download": true,
+        "external": false
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/aman5z",
+        "style": "btn-a",
+        "download": false,
+        "external": true
+      },
+      {
+        "label": "GitHub",
+        "href": "https://github.com/aman5z",
+        "style": "btn-a",
+        "download": false,
+        "external": true
+      },
+      {
+        "label": "Email Me",
+        "href": "mailto:amanfaizal@outlook.com",
+        "style": "btn-a",
+        "download": false,
+        "external": false
+      }
+    ],
+    "taglineHtml": "Turning curiosity into capability, one project at a time."
+  },
+  "footer": {
+    "left": "// Aman Faizal — Portfolio",
+    "copyrightSuffix": "@aman5z.in"
+  },
+  "pages": [
+    {
+      "slug": "",
+      "path": "index.html",
+      "title": "Home",
+      "contentFile": "content.json"
+    }
+  ],
+  "layout": {
+    "order": [
+      "hero",
+      "stats",
+      "about",
+      "expertise",
+      "skills",
+      "experience",
+      "certifications",
+      "whyWorkWithMe",
+      "projects",
+      "philosophy",
+      "contact"
+    ],
+    "hidden": []
+  }
+}
