@@ -11,7 +11,7 @@
     "themeColorLight": "#f8f9fa"
   },
   "theme": {
-    "defaultMode": "dark",
+    "defaultMode": "light",
     "dark": {
       "bg": "#0c0e12",
       "surface": "#13161d",
